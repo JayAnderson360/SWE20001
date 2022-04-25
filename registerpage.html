@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Prebuilt Layout</title>
+
+    <!-- Bootstrap -->
+    <link href="../../Documents/css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="style3.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+    <div class="container">
+	  <img src="logo.png" alt="logo" class="logo"/>
+      <div class="wrapper">
+		<div class="title"><span>Register Form</span></div>
+        <form action="#">
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="text" placeholder="Email" id="remail" required>
+          </div>
+			<p id="emailerror"></p>
+		  <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="text" placeholder="Username" id="rusername" required>
+          </div>
+			<p id="usernameerror"></p>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password"  id="rpassword" required>
+          </div>
+		  <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder=" Confirm Password" id="rpassword2" required>
+          </div>
+			<p id="passworderror"></p>
+          <div class="row button">
+			  <button type="submit"><a href="mainpage.html">Register</a></button>  
+          </div>
+          <div class="signup-link">Already have an account? <a href="loginpage.html">Log in</a></div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
